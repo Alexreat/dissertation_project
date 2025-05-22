@@ -1,1 +1,3 @@
 TCGA-COAD*.tsv.gz.tsv
+.DS_Store
+.ipynb_checkpoints/
