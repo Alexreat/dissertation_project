@@ -3,3 +3,5 @@ TCGA-COAD*.tsv.gz.tsv
 .ipynb_checkpoints/
 healthy_expression_matrix.csv
 *_expression_matrix.csv
+*.mat
+*.csv
