@@ -6,3 +6,5 @@ healthy_expression_matrix.csv
 *.mat
 *.csv
 *.txt
+*.csv
+*.xml
