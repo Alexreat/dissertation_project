@@ -9,3 +9,6 @@ healthy_expression_matrix.csv
 *.csv
 *.xml
 data/*.csv
+*.tsv
+*.txt
+data/
