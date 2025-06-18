@@ -14,3 +14,5 @@ data/*.csv
 data/
 *.tsv
 *.txt
+*.tsv
+*.txt
