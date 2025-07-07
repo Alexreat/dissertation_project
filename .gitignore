@@ -17,3 +17,7 @@ data/
 *.tsv
 *.txt
 *.html
+*.pkl
+*.graphml
+*.tsv
+*.txt
