@@ -9,6 +9,7 @@ This repository contains the complete computational workflow for the dissertatio
 The project investigates how the metabolic network of Hepatocellular Carcinoma (HCC) diverges from that of healthy liver tissue. RNA-seq data from the TCGA-LIHC cohort was integrated with the Human-GEM genome-scale model to build 423 patient-specific metabolic models.
 
 The analysis combines:
+
 	•	Flux Balance Analysis (FBA) to assess metabolic functional capacity.
  
 	•	Graph theory to quantify network topology.
@@ -90,6 +91,7 @@ The MATLAB scripts require:
 	•	COBRA Toolbox v3.x
 	•	Human-GEM model
 	•	TCGA-LIHC RNA-seq (STAR counts), The dataset (424 samples) can be downloaded from **UCSC Xena portal
+
 
 
 
