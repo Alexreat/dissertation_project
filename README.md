@@ -10,8 +10,11 @@ The project investigates how the metabolic network of Hepatocellular Carcinoma (
 
 The analysis combines:
 	•	Flux Balance Analysis (FBA) to assess metabolic functional capacity.
+ 
 	•	Graph theory to quantify network topology.
+ 
 	•	Machine learning (XGBoost) to classify samples as tumour or healthy based on network- and flux-derived features.
+ 
 
 Key finding: HCC metabolism is a streamlined version of the healthy network — it achieves comparable theoretical growth by channeling flux through a smaller, more focused set of reactions rather than through radical structural rewiring.
 
@@ -87,5 +90,6 @@ The MATLAB scripts require:
 	•	COBRA Toolbox v3.x
 	•	Human-GEM model
 	•	TCGA-LIHC RNA-seq (STAR counts), The dataset (424 samples) can be downloaded from **UCSC Xena portal
+
 
 
