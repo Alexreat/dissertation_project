@@ -21,3 +21,9 @@ data/
 *.graphml
 *.tsv
 *.txt
+__pycache__/
+*.ipynb_checkpoints/
+data/
+outputs/
+*.mat
+*.tmp
