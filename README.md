@@ -51,20 +51,26 @@ dissertation_project
 ⸻
 
 Methodology Workflow
+
 	1.	Data Preprocessing
 	•	Raw gene expression (TPM) from TCGA-LIHC is log-transformed, Z-score normalized, and binarized for iMAT.
+ 
 	2.	Model Reconstruction
 	•	Processed expression vectors are used in MATLAB (COBRA Toolbox) via imat_script.m and imat_script_healthy.m to generate patient-specific metabolic models from Human-GEM.
+ 
 	3.	Flux Balance Analysis (FBA)
 	•	Implemented in FBA_per_sample.ipynb to calculate:
 	•	Maximal biomass production
 	•	Total absolute flux
 	•	Active reaction count
+ 
 	4.	Graph Construction & Feature Extraction
 	•	Each model is converted into a metabolite-metabolite graph.
 	•	Topological metrics (degree, clustering, modularity, assortativity, etc.) are computed in Graph_per_sample.ipynb and Graph_extra_features.ipynb.
+ 
 	5.	Statistical Analysis
 	•	Feature distributions compared between tumour and healthy using Mann–Whitney U tests and effect sizes in Graph_stats.ipynb.
+ 
 	6.	Machine Learning Classification
 	•	XGBoost model (ML_model.ipynb) trained on combined flux and graph features to distinguish tumour vs. healthy samples.
 
@@ -81,4 +87,5 @@ The MATLAB scripts require:
 	•	COBRA Toolbox v3.x
 	•	Human-GEM model
 	•	TCGA-LIHC RNA-seq (STAR counts), The dataset (424 samples) can be downloaded from **UCSC Xena portal
+
 
