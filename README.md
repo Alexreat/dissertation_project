@@ -23,36 +23,16 @@ Key finding: HCC metabolism is a streamlined version of the healthy network — 
 
 Repository Structure
 
-dissertation_project
-
--notebooks/
-
-│   ├── FBA_per_sample.ipynb         # Flux Balance Analysis per model
-
-│   ├── Graph_extra_features.ipynb   # Additional graph metrics extraction
-
-│   ├── Graph_per_sample.ipynb       # Build per-sample metabolic graphs
-
-│   ├── Graph_stats.ipynb            # Statistical analysis of graph metrics
-
-│   ├── ML_model.ipynb               # Machine learning classification
-
-│   └── hier_complexity.py           # Hierarchical complexity calculation
-
-│
-├── imat_script.m                    # MATLAB iMAT workflow (tumour models)
-
-├── imat_script_healthy.m            # MATLAB iMAT workflow (healthy models)
-
-│
-├── mart_export.txt                  # Gene ID mapping reference
-
-├── .gitignore                       # Ignore intermediate/data files
-
-└── README.md                        # This file
-
-
-⸻
+dissertation_project -notebooks/
+── FBA_per_sample.ipynb         # Flux Balance Analysis per model
+── Graph_extra_features.ipynb   # Additional graph metrics extraction
+── Graph_per_sample.ipynb       # Build per-sample metabolic graphs
+── Graph_stats.ipynb            # Statistical analysis of graph metrics
+── ML_model.ipynb               # Machine learning classification
+── hier_complexity.py           # Hierarchical complexity calculation
+-─ imat_script.m                    # MATLAB iMAT workflow (tumour models)
+── imat_script_healthy.m            # MATLAB iMAT workflow (healthy models)
+── mart_export.txt                  # Gene ID mapping reference
 
 Methodology Workflow
 
@@ -91,6 +71,7 @@ The MATLAB scripts require:
 	•	COBRA Toolbox v3.x
 	•	Human-GEM model
 	•	TCGA-LIHC RNA-seq (STAR counts), The dataset (424 samples) can be downloaded from **UCSC Xena portal
+
 
 
 
